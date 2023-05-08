@@ -11,3 +11,4 @@ The mini project for the course Database Technologies.
 
 Name is a pun on Marty McFly .
 McFlAirlines On Time Performance Monitoring System
+The dataset we ran this on is approximately 11 Gigs, so definitely not uploading that here
