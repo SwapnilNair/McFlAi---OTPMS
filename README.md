@@ -1,14 +1,22 @@
-# McFlAi-OTPMS
-The mini project for the course Database Technologies. 
-## Technologies / Frameworks to be exercised:
-* 1. Apache Spark Streaming, Spark SQL [execute multiple workloads e.g., SparkSQL queries to carry out action, transformation or aggregation on the input data]
-* 2. Apache Kafka Streaming [have to publish/subscribe the results or produce/consume choosing >=3 topics].
-* 3. Store the data in a DBMS of your choice like postgres,MySQL ( Ofcourse we use postgres, myswl is a dumpster fire)
-* 4. Make use of any other tool/s as required like Zookeeper.
+## McFlAi - On Time Performance Monitoring System
+A project built for the course Database Technologies. An end to end pipeline using Apache Spark, Apache Kafka and Zookeeper to stream and analyze performance metrics for airlines is real time. 
+Metrics included average flight delays, turnaround times, airborne time and more.
+All queries were execued using Spark dataframes and Spark SQL and tried in batch mode and streaming mode.
+Supported multiple subscribers like Airlines, Airports and Manufactureers who could view specific real time values hassle free.
 
-## Run the same queries in a batch mode on the same/whole data from the database (#3 above).
-## Compare the above results/accuracy/performance with the streaming mode of execution.
-
-Name is a pun on Marty McFly .
-McFlAirlines On Time Performance Monitoring System
 The dataset we ran this on is approximately 11 Gigs, so definitely not uploading that here
+
+Overall this was a fantastic experience and dealing with handling huge datasets with millions of rows and columns was a dream task.
+
+**Technologies used for this** 
+1. Apache Spark Streaming and Spark SQL.
+2. Apache Kafka 
+3. Postgres/MySQL.
+4. Zookeeper.
+5. Python
+
+
+> Yes, the name is a pun on Marty McFly from the "Back the The Future" Series.
+
+
+
